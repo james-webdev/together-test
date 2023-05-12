@@ -1,11 +1,12 @@
 import React from "react";
 
 
-export function JamesComp(props) {
-	const { text_card } = props;
+export function JamesComp({something}) {
+	
 	return (
-		<div>
-			THIS IS MY COMPY!!!
+		<div className="bg-green-300">
+			{something}
+			THIS IS MY COMPY!!! check me outtututututuubowubvowudb
 		</div>
 	);
 }

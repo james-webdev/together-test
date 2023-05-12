@@ -15,7 +15,7 @@ export function Layout({ data, children }) {
 			<PasswordProtect password={page?.post_password}>
 				<Seo page={data?.page} />
 				<Header />
-				<JamesComp/>
+				<JamesComp something={'somehope'}/>
 				<Footer />
 				<WpHotkey id={page?.ID} />
 			</PasswordProtect>
