@@ -9,8 +9,8 @@ export function JamesComp() {
 	return (
 		<>
 			<div className="flex justify-center">
-				<FlashSquares position={'Top'} color={'green'} />
-				<div className="max-w-3xl flex flex-col border border-black items-center">
+				<FlashSquares position={'Top'} color={'gray'} />
+				<div className="max-w-3xl flex flex-col items-center">
 
 					<p className="font-display text-7xl text-center">
 
@@ -24,7 +24,7 @@ export function JamesComp() {
 					<button className="bg-yellow-300 p-4 w-32 rounded-lg">Get started</button>
 
 				</div>
-				<FlashSquares position={'Bottom'} color={'red'} />
+				<FlashSquares position={'Bottom'} color={'gray'} />
 
 
 
