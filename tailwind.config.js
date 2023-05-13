@@ -13,14 +13,15 @@ module.exports = {
 			keyframes: {
 				flash: {
 					'0%': { opacity: 0 },
-					'100%': { opacity: 1 }
+					'50%': { opacity: 1 },
+					'100%': { opacity: 0 }
 				},
 
 			},
 			animation: {
 				flash: 'flash 1s ease-in-out infinite',
 				slowflash: 'flash 2s ease-in-out infinite',
-				slowslowflash: 'flash 3s ease-in-out infinite',
+				slowslowflash: 'flash 2500ms ease-in-out infinite',
 			}
 		},
 		fontFamily: {
