@@ -10,6 +10,17 @@ module.exports = {
 			},
 		}),
 		extend: {},
+		fontFamily: {
+			sans: [
+			  "Bolton, sans-serif",
+			  {},
+			],
+			display: [
+			  "Archia, sans-serif",
+			  {},
+			],
+		  },
+
 	},
 	plugins: [require("@tailwindcss/line-clamp"), require("@tailwindcss/typography"), require("@tailwindcss/aspect-ratio"), require("@tailwindcss/forms")],
 };

@@ -81,3 +81,20 @@
   .bm-overlay {
 	background: rgba(0, 0, 0, 0.3);
   }
+
+
+  @font-face {
+	font-family: 'Archia';
+	src: url('../fonts/archia.woff2');
+	font-weight: 400;
+	font-style: normal;
+	}
+
+  @font-face {
+	font-family: 'Bolton';
+	src: url('../fonts/bolton.woff2');
+	font-weight: 400;
+	font-style: normal;
+	}
+
+
