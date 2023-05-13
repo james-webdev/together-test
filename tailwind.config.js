@@ -9,17 +9,30 @@ module.exports = {
 				lg: theme("spacing.12"),
 			},
 		}),
-		extend: {},
+		extend: {
+			keyframes: {
+				flash: {
+					'0%': { opacity: 0 },
+					'100%': { opacity: 1 }
+				},
+
+			},
+			animation: {
+				flash: 'flash 1s ease-in-out infinite',
+				slowflash: 'flash 2s ease-in-out infinite',
+				slowslowflash: 'flash 3s ease-in-out infinite',
+			}
+		},
 		fontFamily: {
 			sans: [
-			  "Bolton, sans-serif",
-			  {},
+				"Bolton, sans-serif",
+				{},
 			],
 			display: [
-			  "Archia, sans-serif",
-			  {},
+				"Archia, sans-serif",
+				{},
 			],
-		  },
+		},
 
 	},
 	plugins: [require("@tailwindcss/line-clamp"), require("@tailwindcss/typography"), require("@tailwindcss/aspect-ratio"), require("@tailwindcss/forms")],
