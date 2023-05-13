@@ -4,7 +4,8 @@ import Header from "~/components/global/Header";
 import Footer from "~/components/global/Footer";
 import WpHotkey from "~/components/elements/WpHotkey";
 import { GlobalContext } from "~/utils/context";
-import JamesComp from "../test/JamesComp";
+import TestComponent from "../james-test/TestComponent";
+import Section from "../layouts/Section";
 
 export function Layout({ data, children }) {
 	const [context, setContext] = useState(data);
@@ -14,9 +15,11 @@ export function Layout({ data, children }) {
 		<GlobalContext.Provider value={[context, setContext]}>
 			<PasswordProtect password={page?.post_password}>
 				<Seo page={data?.page} />
+				<div className="container">
 				<Header />
-				<JamesComp something={'somehope'}/>
+				<TestComponent something={'somehope'} />
 				<Footer />
+				</div>
 				<WpHotkey id={page?.ID} />
 			</PasswordProtect>
 		</GlobalContext.Provider>
