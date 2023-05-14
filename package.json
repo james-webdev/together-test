@@ -24,6 +24,7 @@
 		"dotenv": "^16.0.2",
 		"framer-motion": "^7.6.19",
 		"html-react-parser": "^3.0.4",
+		"keen-slider": "^6.8.5",
 		"next": "^12.2.5",
 		"next-seo": "^5.15.0",
 		"prettier-plugin-tailwindcss": "^0.2.0",

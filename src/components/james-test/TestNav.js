@@ -1,8 +1,8 @@
 import React from "react";
 import SideBar from "../../components/james-test/TestSidebar";
-import Logo from "../../assets/images/logo.js"
+import Logo from "../../assets/svgs/logo.js"
 import Link from 'next/link';
-import ArrowDown from "~/assets/images/arrowDropDown";
+import ArrowDown from "~/assets/svgs/arrowDropDown";
 
 
 
@@ -41,8 +41,8 @@ const Nav = () => {
 				<div className="flex justify-center items-center p-1 text-xs sm:p-2 m-1 sm:m-2">
 					<a href="/" className="ml-1 text-xs sm:text-base">Login</a>
 				</div>
-				<div className="p-1 border border-black px-6 py-3  text-xs m-1 sm:m-2">
-					<a href="/" className="ml-1 text-xs sm:text-base">Request a Demo</a>
+				<div className="p-1 border border-black px-6 py-3  text-xs m-1 sm:m-2 min-w-fit">
+					<a href="/" className="ml-1 text-xs sm:text-base ">Request a Demo</a>
 
 				</div>
 			</div>

@@ -3476,6 +3476,11 @@
     "array-includes" "^3.1.4"
     "object.assign" "^4.1.2"
 
+"keen-slider@^6.8.5":
+  "integrity" "sha512-9yoosfffgTCrkmbX8kCUMWsn9KDgPSkxBof5/0yXde001D1xao7i9ppfxQCCK0MLnoCa+Rdssby0jFbTTUM4rw=="
+  "resolved" "https://registry.npmjs.org/keen-slider/-/keen-slider-6.8.5.tgz"
+  "version" "6.8.5"
+
 "keyv@^4.0.0":
   "integrity" "sha512-5MHbFaKn8cNSmVW7BYnijeAVlE4cYA/SVkifVgrh7yotnfhKmjuXpDKjrABLnT0SfHWV21P8ow07OGfRrNDg8g=="
   "resolved" "https://registry.npmjs.org/keyv/-/keyv-4.5.2.tgz"

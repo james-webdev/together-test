@@ -4,8 +4,10 @@ import Header from "~/components/global/Header";
 import Footer from "~/components/global/Footer";
 import WpHotkey from "~/components/elements/WpHotkey";
 import { GlobalContext } from "~/utils/context";
-import TestComponent from "../james-test/TestComponent";
-import Section from "../layouts/Section";
+import TestHero from "../james-test/TestHero";
+import TestImage from "../james-test/TestMainImage";
+import LogoCarousel from "../james-test/TestLogoCarousel";
+import SlidePage from "../james-test/TestSearchDrawer"
 
 export function Layout({ data, children }) {
 	const [context, setContext] = useState(data);
@@ -17,7 +19,10 @@ export function Layout({ data, children }) {
 				<Seo page={data?.page} />
 				<div className="container">
 				<Header />
-				<TestComponent something={'somehope'} />
+				<TestHero something={'somehope'} />
+				<TestImage/>
+				<LogoCarousel/>
+				<SlidePage/>	
 				<Footer />
 				</div>
 				<WpHotkey id={page?.ID} />

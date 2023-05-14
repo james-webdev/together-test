@@ -1,8 +1,5 @@
 import React from "react";
-import FlashSquares from "../james-test/TestFlashingSquares"
-import Image from 'next/image';
-import Analysis from '../../assets/images/analysis.png';
-
+import FlashSquares from "./TestFlashingSquares"
 
 
 
@@ -14,11 +11,11 @@ export function JamesComp() {
 				<FlashSquares position={'Top'} color={'gray'} />
 				<div className="max-w-4xl flex flex-col items-center">
 
-					<p className="font-display mt-32 max-w-2xl text-7xl text-center">
+					<p className="font-display mt-32 max-w-2xl text-3xl md:text-7xl text-center">
 
 						One platform powering better information.
 					</p>
-					<p className="font-display mt-10 max-w-2xl text-xl text-center">
+					<p className="font-display mt-10 max-w-2xl text-md md:text-xl text-center">
 
 						Hawk empowers Public Safety agencies to make mission-critical decisions in real-time.
 					</p>
@@ -30,13 +27,7 @@ export function JamesComp() {
 
 
 			</div>
-			<div className="mt-20">
-				<Image src={Analysis} />
-
-			</div>
-
-
-
+			
 
 		</>
 
