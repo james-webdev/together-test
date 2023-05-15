@@ -93,9 +93,9 @@ export default function Footer() {
 				</div>
 			</div>
 			<div className="mt-28 flex justify-between border-t-2 border-gray-300">
-				<div className="mt-2 md:mt-5 flex w-screen justify-between">
+				<div className="mt-2 md:mt-5 mb-5 flex w-screen justify-between">
 					<div className="text-xs mt-7 font-light">© 2022 Hawk. All rights reserved</div>
-					<div className="mr-8">
+					<div className="mr-12">
 						<Image src={AwsImage} />
 					</div>
 				</div>
