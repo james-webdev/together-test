@@ -13,7 +13,7 @@ export function MainImage() {
 	return (
 
 
-		<div className="mt-20 relative flex justfiy-center">
+		<div className="mt-20 relative flex justify-center">
 
 			<CalloutPublic />
 			<CalloutCAD />

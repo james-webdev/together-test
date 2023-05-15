@@ -7,7 +7,8 @@ import { GlobalContext } from "~/utils/context";
 import TestHero from "../james-test/TestHero";
 import TestImage from "../james-test/TestMainImage";
 import LogoCarousel from "../james-test/TestLogoCarousel";
-import SlidePage from "../james-test/TestSearchDrawer"
+import Accordion from "../james-test/TestAccordion";
+import AchieveBanner from "../james-test/TestAchieveBanner"
 
 export function Layout({ data, children }) {
 	const [context, setContext] = useState(data);
@@ -19,10 +20,11 @@ export function Layout({ data, children }) {
 				<Seo page={data?.page} />
 				<div className="container">
 				<Header />
-				<TestHero something={'somehope'} />
+				<TestHero />
 				<TestImage/>
 				<LogoCarousel/>
-				<SlidePage/>	
+				<Accordion/>
+				<AchieveBanner/>
 				<Footer />
 				</div>
 				<WpHotkey id={page?.ID} />

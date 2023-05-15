@@ -133,8 +133,22 @@
   .dot.active {
 	background: #000;
   }
+
+
+  /* accordion styles */
+
+  .content, .heading {
+	  display: none;
+  }
   
+  .content.active, .heading.active {
+	  display: block;
+  }
   
+
+  .achieve {
+	  height: 600px;
+  }
   
 
 

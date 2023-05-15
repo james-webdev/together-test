@@ -8,7 +8,7 @@ module.exports = withBundleAnalyzer({
 		remotePatterns: [
 			{
 				protocol: "https",
-				hostname: "**.wpengine.com",
+				hostname: "**i.postimg.cc",
 			},
 		],
 		formats: ["image/avif", "image/webp"],
