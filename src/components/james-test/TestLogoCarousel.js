@@ -38,10 +38,10 @@ export default () => {
 	})
 	return (
 		<>
-			<div className="mt-20 flex justify-center">
+			<div className="mt-20 text-xl font-light flex justify-center">
 				<p>Trusted by global corporations</p>
 			</div>
-			<div ref={sliderRef} className="keen-slider mt-10 mb-40">
+			<div ref={sliderRef} className="keen-slider mt-20 mb-40">
 				<div className="keen-slider__slide flex justify-center items-center"><ImageOne/></div>
 				<div className="keen-slider__slide flex justify-center items-center"><ImageTwo/></div>
 				<div className="keen-slider__slide flex justify-center items-center"><ImageThree/></div>

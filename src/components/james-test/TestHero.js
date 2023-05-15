@@ -21,17 +21,15 @@ export function Hero() {
 	  const letter = {
 		  hidden: {
 			opacity: 0,
-			// y: 100
 		  },
 		  visible: {
-			// y: 0,
 			opacity: 1,
 		  }
 	  }
 
 	return (
 		<>
-			<div className="flex justify-center">
+			<div className="flex mt-28 justify-center">
 				<FlashSquares position={"Top"} color={"gray"} />
 				<div className="flex max-w-4xl flex-col items-center">
 				<motion.div className="mt-10 text-center"
@@ -44,11 +42,11 @@ export function Hero() {
                       )
                     })}
                   </motion.div>
-					<p className="text-md mt-10 max-w-2xl text-center font-display md:text-xl">
+					<p className="text-md mt-8 max-w-2xl text-center font-light md:text-xl">
 						Hawk empowers Public Safety agencies to make mission-critical decisions in real-time.
 					</p>
 
-					<button className="mt-10 w-32 rounded-lg bg-yellow-300 p-4">Get started</button>
+					<button style={{backgroundColor: "#F1F152"}} className="mt-10 w-32 bg-yellow-300 p-4">Get started</button>
 				</div>
 				<FlashSquares position={"Bottom"} color={"gray"} />
 			</div>

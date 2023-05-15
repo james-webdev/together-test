@@ -40,7 +40,7 @@ export default (props) => {
 				</div>
 				<hr className="mt-4" />
 			</a>
-			<div className="p-1 border border-black  px-6 py-3  text-xs m-1 sm:m-2">
+			<div className="p-1 border border-black px-6 py-3 m-1 sm:m-2">
           Request a Demo
         </div>
 			<div className="flexImp justify-around items-center w-full mt-60">

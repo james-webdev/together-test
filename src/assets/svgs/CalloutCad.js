@@ -13,7 +13,7 @@ function CalloutCAD() {
          scale: 1
         }}
       transition={{ ease: "easeOut", duration: 1 }}
-	  className="z-10 absolute w-20 md:w-full md:top-60 md:right-40"
+	  className="z-10 absolute w-20 md:w-full md:top-60 md:right-96"
       xmlns="http://www.w3.org/2000/svg"
       width="252"
       height="76"

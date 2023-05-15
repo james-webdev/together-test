@@ -104,11 +104,6 @@
 	}
 
 	
-  
-  
-  
-  
-  
 
   
   .navigation-wrapper {
@@ -153,18 +148,28 @@
   
 
   .achieve {
-	  height: 600px;
+	  height: 900px;
 	  background-color: #2C3633;
   }
 
 
  .ourmission {
 	font-weight: 500;
-	font-size: 56px;
-	line-height: 60px;
- }
+	font-size: 56px; 
+	line-height: 60px; 
+	
+}
 
 
+@media only screen and (max-width: 600px) {
+
+	.ourmission { 
+		
+		font-size: 20px;
+		line-height: 30px; 
+	}
+	
+}
  /* text color animation */
 
  .text-animation {
@@ -172,7 +177,7 @@
 	  linear-gradient(to right, black, gray); 
 	-webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;  
-	animation: text-animation 250s linear infinite;
+	animation: text-animation 150s linear infinite;
   }
   
   @keyframes text-animation {

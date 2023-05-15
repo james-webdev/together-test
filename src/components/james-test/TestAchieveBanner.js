@@ -12,22 +12,22 @@ const AchieveBanner = () => {
 					</p>
 				</div>
 				<div className="flex justify-center">
-					<button className="bg-yellow-300 mt-10 p-4 w-32 rounded-lg pushable"><span className="front">Get started </span></button>
+				<button style={{backgroundColor: "#F1F152"}} className="mt-10 w-32 bg-yellow-300 p-4">Get started</button>
 					
 				</div>
 			</div>
 			<div className="absolute bottom-0 left-0">
 
-				<FlashSquares className="absolute bottom-10 left-44" color={"lightgreen"} />
+				<FlashSquares className="absolute bottom-10 left-44" color={"#4FF2A4"} />
 			</div>
 
 			<div className="absolute top-20 right-10">
 
-				<FlashSquares color={"lightgreen"} />
+				<FlashSquares color={"#4FF2A4"} />
 			</div>
-			<span className="absolute bg-white h-10 w-40 top-0 right-0"></span>
-			<span className="absolute bg-white h-12 w-60 bottom-0 right-0"></span>
-			<span className="absolute bg-white h-12 w-60 top-0 left-0"></span>
+			<span className="absolute bg-white h-8 w-48 top-0 right-0"></span>
+			<span className="absolute bg-white h-8 w-64 bottom-0 left-0"></span>
+			<span className="absolute bg-white h-32 w-32 top-0 left-0"></span>
 		</div>
 	)
 }
