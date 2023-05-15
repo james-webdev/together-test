@@ -4,10 +4,10 @@ const AchieveBanner = () => {
 
 
 	return (
-		<div className="achieve relative mb-20 bg-emerald-900 flex items-center justify-center">
+		<div className="achieve relative mb-20 flex items-center justify-center">
 			<div>
 				<div className="flex justify-center">
-					<p className="max-w-5xl text-center font-display text-3xl md:text-7xl">
+					<p className="max-w-5xl text-center text-white font-display text-3xl md:text-7xl">
 						Achieve breakthrough moments.
 					</p>
 				</div>

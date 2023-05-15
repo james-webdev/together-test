@@ -96,6 +96,12 @@
 	font-weight: 400;
 	font-style: normal;
 	}
+  @font-face {
+	font-family: 'Bolton Light';
+	src: url('../fonts/bolton-light.woff2');
+	font-weight: 400;
+	font-style: normal;
+	}
 
 	
   
@@ -148,10 +154,32 @@
 
   .achieve {
 	  height: 600px;
+	  background-color: #2C3633;
   }
 
 
-  /* nice button */
+ .ourmission {
+	font-weight: 500;
+	font-size: 56px;
+	line-height: 60px;
+ }
+
+
+ /* text color animation */
+
+ .text-rainbow-animation {
+	background-image: 
+	  linear-gradient(to right, black, gray); 
+	-webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;  
+	animation: rainbow-animation 250s linear infinite;
+  }
+  
+  @keyframes rainbow-animation {
+	  to {
+		  background-position: 4500vh;
+	  }
+  }
 
   
   

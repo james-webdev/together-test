@@ -9,6 +9,7 @@ import TestImage from "../james-test/TestMainImage";
 import LogoCarousel from "../james-test/TestLogoCarousel";
 import Accordion from "../james-test/TestAccordion";
 import AchieveBanner from "../james-test/TestAchieveBanner"
+import OurMission from "../james-test/TestOurMission"
 
 export function Layout({ data, children }) {
 	const [context, setContext] = useState(data);
@@ -24,6 +25,7 @@ export function Layout({ data, children }) {
 				<TestImage/>
 				<LogoCarousel/>
 				<Accordion/>
+				<OurMission/>
 				<AchieveBanner/>
 				<Footer />
 				</div>

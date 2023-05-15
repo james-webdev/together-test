@@ -1,7 +1,6 @@
 import React from "react";
 import SideBar from "../../components/james-test/TestSidebar";
 import Logo from "../../assets/svgs/logo.js"
-import Link from 'next/link';
 import ArrowDown from "~/assets/svgs/arrowDropDown";
 
 

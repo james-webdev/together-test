@@ -16,6 +16,7 @@ module.exports = {
 					'50%': { opacity: 1 },
 					'100%': { opacity: 0 }
 				},
+				
 
 			},
 			animation: {
@@ -31,6 +32,10 @@ module.exports = {
 			],
 			display: [
 				"Archia, sans-serif",
+				{},
+			],
+			light: [
+				"Bolton Light, sans-serif",
 				{},
 			],
 		},
