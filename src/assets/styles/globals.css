@@ -151,6 +151,13 @@
 	  height: 900px;
 	  background-color: #2C3633;
   }
+  
+  @media only screen and (max-width: 500px) { 
+	  
+	  .achieve {
+		  height: 550px;
+	  }
+  }
 
 
  .ourmission {

@@ -40,10 +40,10 @@ const AccordionTwo = () => {
 
 		return (
 			<div className="border-t-2 mb-4" key={item.title}>
-				<div className={`title ${active} cursor-pointer font-light text-slate-600 text-2xl pt-3 pb-3 mt-4`} onClick={() => onTitleClick(index)}>
+				<div className={`title ${active} cursor-pointer font-light text-slate-600 text-2xl md:pt-3 pb-3 mt-4`} onClick={() => onTitleClick(index)}>
 					{item.title}
 				</div>
-				<div className={`heading ${active} text-3xl md:text-5xl mt-8 mb-10 font-display`}>
+				<div className={`heading ${active} text-3xl md:text-5xl mb-3 md:mt-8 md:mb-10 font-display`}>
 					<h2>{item.heading}</h2>
 				</div>
 				<div className={`content ${active} mb-7 font-light text-slate-400 text-sm md:text-xl`}>
