@@ -23,7 +23,7 @@ function CalloutPublic() {
       height="76"
       fill="none"
       viewBox="0 0 285 76"
-      className="z-10 w-20 lg:w-full absolute top-6 right-2 lg:top-80 lg:left-80"
+      className="z-10 w-20 xl:w-full absolute top-6 right-2 xl:top-80 xl:left-80"
     >
      
      <rect

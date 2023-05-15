@@ -14,7 +14,7 @@ function CalloutVehicle() {
          scale: 1
         }}
       transition={{ ease: "easeOut", duration: 1 }}
-	  className="z-10 w-20 lg:w-full absolute bottom-1 lg:bottom-40 lg:right-28"
+	  className="z-10 w-20 xl:w-full absolute bottom-1 xl:bottom-40 xl:right-28"
       xmlns="http://www.w3.org/2000/svg"
       width="278"
       height="76"
