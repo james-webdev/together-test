@@ -8,7 +8,7 @@ export function OurMission() {
 			<div className="relative mb-44 flex justify-center">
 				<div className="flex max-w-4xl flex-col">
 					<p className="mt-32 max-w-2xl font-display text-2xl">Our mission</p>
-					<p className="ourmission mt-10 max-w-5xl font-display text-xl text-rainbow-animation md:text-6xl">
+					<p className="ourmission mt-10 max-w-5xl font-display text-xl text-animation md:text-6xl">
 						We’re empowering the world’s most important organizations to transform Public Safety, protect civil liberties and ensure personal freedom.
 					</p>
 

@@ -167,15 +167,15 @@
 
  /* text color animation */
 
- .text-rainbow-animation {
+ .text-animation {
 	background-image: 
 	  linear-gradient(to right, black, gray); 
 	-webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;  
-	animation: rainbow-animation 250s linear infinite;
+	animation: text-animation 250s linear infinite;
   }
   
-  @keyframes rainbow-animation {
+  @keyframes text-animation {
 	  to {
 		  background-position: 4500vh;
 	  }
