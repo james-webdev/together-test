@@ -16,8 +16,8 @@ export default function Footer() {
 			<div>
 				<Logo />
 			</div>
-			<div className="mt-8 grid grid-cols-1 text-base sm:grid-cols-2 md:mt-14 lg:grid-cols-4">
-				<div className="mt-8 flex flex-col md:mt-3">
+			<div className="mt-5 grid grid-cols-1 text-base sm:grid-cols-2 md:mt-14 lg:grid-cols-4">
+				<div className="mt-5 flex flex-col md:mt-3">
 					<span className="mt-3 flex items-center gap-2">
 						Law Enforcement
 						<RightArrow />
@@ -28,7 +28,7 @@ export default function Footer() {
 					<span className="mt-2 md:mt-5 font-light">Real-Time Crime Center</span>
 					<span className="mt-2 md:mt-5 font-light">Information Technology</span>
 				</div>
-				<div className="mt-8 flex flex-col md:mt-3">
+				<div className="mt-5 flex flex-col md:mt-3">
 					<span className="mt-3 flex items-center gap-2 ">
 						Emergency Management
 						<RightArrow />
@@ -42,14 +42,14 @@ export default function Footer() {
 						<RightArrow />
 					</span>
 				</div>
-				<div className="mt-8 flex flex-col md:mt-3">
+				<div className="mt-5 flex flex-col md:mt-3">
 					<span className="mt-3">Platform</span>
 					<span className="mt-2 md:mt-5 font-light">Overview</span>
 					<span className="mt-2 md:mt-5 font-light">Security</span>
 					<span className="mt-2 md:mt-5 font-light">Privacy and Civil Liberties</span>
 					<span className="mt-2 md:mt-5 font-light">Implementation</span>
 				</div>
-				<div className="mt-8 flex flex-col md:mt-3">
+				<div className="mt-5 flex flex-col md:mt-3">
 					<span className="mt-3">Resources</span>
 					<span className="mt-2 md:mt-5 font-light">Case Studies</span>
 					<span className="mt-2 md:mt-5 font-light">Insights</span>
@@ -57,20 +57,20 @@ export default function Footer() {
 					<span className="mt-2 md:mt-5 font-light">Events</span>
 				</div>
 			</div>
-			<div className="mt-8 mb-8 grid grid-cols-1 sm:grid-cols-2 md:mt-14 lg:grid-cols-4">
-				<div className="mt-8 flex flex-col md:mt-3">
+			<div className="mt-5 mb-8 grid grid-cols-1 sm:grid-cols-2 md:mt-14 lg:grid-cols-4">
+				<div className="mt-5 flex flex-col md:mt-3">
 					<span className="mt-3">Company</span>
 					<span className="mt-2 md:mt-5 font-light">About</span>
 					<span className="mt-2 md:mt-5 font-light">Careers</span>
 					<span className="mt-2 md:mt-5 font-light">Contact</span>
 				</div>
-				<div className="mt-8 flex flex-col md:mt-3">
+				<div className="mt-5 flex flex-col md:mt-3">
 					<span className="mt-3">Support</span>
 					<span className="mt-2 md:mt-5 font-light">Help Center</span>
 					<span className="mt-2 md:mt-5 font-light">System Status</span>
 					<span className="mt-2 md:mt-5 font-light">Release Notes</span>
 				</div>
-				<div className="mt-8 flex flex-col md:mt-3">
+				<div className="mt-5 flex flex-col md:mt-3">
 					<span className="mt-3">Social</span>
 					<span className="mt-2 md:mt-5 flex items-center gap-2 font-light">
 						<LinkedIn />
@@ -85,7 +85,7 @@ export default function Footer() {
 						Instagram
 					</span>
 				</div>
-				<div className="mt-8 flex flex-col md:mt-3">
+				<div className="mt-5 flex flex-col md:mt-3">
 					<span className="mt-3">Legal</span>
 					<span className="mt-2 md:mt-5 font-light">Terms of Use</span>
 					<span className="mt-2 md:mt-5 font-light">Cookie Policy</span>
