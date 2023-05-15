@@ -7,12 +7,13 @@ const AchieveBanner = () => {
 		<div className="achieve relative mb-20 bg-emerald-900 flex items-center justify-center">
 			<div>
 				<div className="flex justify-center">
-					<p className="max-w-5xl text-center font-display text-7xl">
+					<p className="max-w-5xl text-center font-display text-3xl md:text-7xl">
 						Achieve breakthrough moments.
 					</p>
 				</div>
 				<div className="flex justify-center">
-					<button className="bg-yellow-300 mt-10 p-4 w-32 rounded-lg">Get started</button>
+					<button className="bg-yellow-300 mt-10 p-4 w-32 rounded-lg pushable"><span className="front">Get started </span></button>
+					
 				</div>
 			</div>
 			<div className="absolute bottom-0 left-0">

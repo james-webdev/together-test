@@ -60,7 +60,7 @@ const AccordionTwo = () => {
 					className="object-contain"
 					src={`${items[activeIndex].image}`}
 					alt="img"
-					style={{width: '620', height: '784px'}}
+					style={{width: '620px', height: '784px'}}
 					layout="fill"
 		/>
 			</div>
