@@ -64,7 +64,7 @@ const AccordionTwo = () => {
 					layout="fill"
 		/>
 			</div>
-			<div className="ml-0 lg:ml-32">{renderedItems}</div>
+			<div className="ml-0 mt-5 md:mt-2 lg:ml-32">{renderedItems}</div>
 		</div>
 	);
 };
