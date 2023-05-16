@@ -13,7 +13,7 @@ export function MainImage() {
 	return (
 
 
-		<div className="mt-24 relative flex justify-center">
+		<div className="mt-24 relative overflow-hidden flex justify-center">
 
 			
 			<CalloutCAD />
